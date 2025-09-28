@@ -18,13 +18,9 @@ venv/
 # Logs
 *.log
 
-# Data files (keep only heart_disease.csv if needed)
-data/*.csv
-!data/heart_disease.csv   # keep the main dataset
 
-# Models (ignore large binaries, keep only final_model.pkl if needed)
-models/*
-!models/final.pkl
+
+
 
 # Results
 results/*
