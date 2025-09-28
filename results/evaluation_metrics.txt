@@ -1,0 +1,34 @@
+Model Evaluation Metrics
+==================================================
+
+Model: Logistic Regression
+Accuracy : 0.8852
+Precision: 0.8860
+Recall   : 0.8852
+F1-score : 0.8854
+AUC      : 0.9708
+--------------------------------------------------
+
+Model: Decision Tree
+Accuracy : 0.7377
+Precision: 0.7513
+Recall   : 0.7377
+F1-score : 0.7373
+AUC      : 0.7440
+--------------------------------------------------
+
+Model: Random Forest
+Accuracy : 0.8689
+Precision: 0.8711
+Recall   : 0.8689
+F1-score : 0.8691
+AUC      : 0.9345
+--------------------------------------------------
+
+Model: SVM
+Accuracy : 0.8852
+Precision: 0.8860
+Recall   : 0.8852
+F1-score : 0.8854
+AUC      : 0.9567
+--------------------------------------------------
