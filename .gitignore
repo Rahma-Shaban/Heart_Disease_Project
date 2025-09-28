@@ -1,0 +1,44 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Logs
+*.log
+
+# Data files (keep only heart_disease.csv if needed)
+data/*.csv
+!data/heart_disease.csv   # keep the main dataset
+
+# Models (ignore large binaries, keep only final_model.pkl if needed)
+models/*
+!models/final.pkl
+
+# Results
+results/*
+!results/evaluation_metrics.txt
+
+# Streamlit & deployment configs
+ui/.streamlit/
+deployment/*.log
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ngrok auth token file (if used)
+*.yml
+*.yaml
